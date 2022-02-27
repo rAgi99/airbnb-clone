@@ -1,0 +1,9 @@
+{
+    "python.defaultInterpreterPath": "C:/Users/User/anaconda3/envs/airbnb-clone/python.exe",
+    "editor.defaultFormatter": null,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "python.formatting.provider": "black",
+    "python.linting.flake8Args": ["--max-line-length=100"]
+}
