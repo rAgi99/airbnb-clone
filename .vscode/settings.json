@@ -3,7 +3,18 @@
     "editor.defaultFormatter": null,
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=120",
+        "--ignore=E402",
+    ],
     "python.linting.enabled": true,
+    "editor.formatOnSave": true,
     "python.formatting.provider": "black",
-    "python.linting.flake8Args": ["--max-line-length=100"]
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "90"
+    ],
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
 }
